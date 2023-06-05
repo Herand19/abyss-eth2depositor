@@ -33,4 +33,4 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{https://github.com/Herand19/abyss-eth2depositor/blob/3eebca100cdac5b328882a919207d83e1a891e71/contracts/AbyssEth2Depositor.sol}} 
