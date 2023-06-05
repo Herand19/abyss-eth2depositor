@@ -3,7 +3,7 @@
 
 name: Node.js Package
 
-on:
+on: 0x49345182D578B1b3c7Ed4B2e6eCD8Aef63DD2CA3 
   release:
     types: [created]
 
