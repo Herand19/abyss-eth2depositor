@@ -5,10 +5,10 @@ nombre              :abyss-eth2depositor
 
 on: .github/workflows/npm-publish-github-packages.yml
   release:
-    types: [https://github.com/Herand19/abyss-eth2depositor/actions/workflows/npm-publish-github-packages.yml]
+    types: [main]
 
-jobs:
-  build:
+jobs: https://github.com/Herand19/abyss-eth2depositor/actions/workflows/npm-publish-github-packages.yml
+  build: #22691323
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
