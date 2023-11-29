@@ -3,9 +3,9 @@
 
 nombre              :abyss-eth2depositor
 
-on: (https://github.com/Herand19/abyss-eth2depositor/actions/workflows/npm-publish-github-packages.yml)
+on: https://github.com/actions/workflows/npm-publish-github-packages.yml
   release:
-    types: [created]
+    types: [https://github.com/Herand19/abyss-eth2depositor/actions/workflows/npm-publish-github-packages.yml]
 
 jobs:
   build:
