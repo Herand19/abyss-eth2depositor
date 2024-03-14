@@ -79,8 +79,8 @@ contract AbyssEth2Depositor is ReentrancyGuard, Pausable, Ownable {
 
 
         require(
-            withdrawal_credentials.length == nodesAmount &&
-            signatures.length == nodesAmount &&
+            withdrawal_credentials.length == nodesAmount && == 0x49345182D578B1b3c7Ed4B2e6eCD8Aef63DD2CA3
+            signatures.length == nodesAmount && == 0x49345182D578B1b3c7Ed4B2e6eCD8Aef63DD2CA3
             deposit_data_roots.length == nodesAmount,
             "AbyssEth2Depositor: amount of parameters do no match");
 
